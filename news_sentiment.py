@@ -37,7 +37,7 @@ news.feed.title
 news.feed.link
 len(news.entries)
 
-for i in range(5):   
+for i in range(len(news.entries)):   
     title = news.entries[i].title
     result_of_sentiment = sentiment(title)
     print(title, "-- >", result_of_sentiment)
