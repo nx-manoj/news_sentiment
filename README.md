@@ -86,8 +86,6 @@ python news_sentiment.py
 ## 👨‍💻 Author
 
 **Manoj (nx-manoj)**
-BCA Data Science Student
-
 ---
 
 ## ⭐ Support
