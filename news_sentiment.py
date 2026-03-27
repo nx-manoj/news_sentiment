@@ -52,7 +52,7 @@ count_of_neutral = result.count("Neutral")
 labels = ["Positive","Negative","Neutral"]
 values = [count_of_positive,count_of_negative,count_of_neutral]
 plt.title("News demo")
-plt.bar(labels,values)
+plt.bar(labels,values, color = ["green","red","gray"])
 plt.savefig("Chart.png")
 plt.show()
 print("Chart Saved !!")
